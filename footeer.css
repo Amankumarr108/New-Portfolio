@@ -1,0 +1,186 @@
+.four-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.footer-logo-icon img {
+  width: 158px;
+  height: 76px;
+}
+
+.footer-logo-icon {
+  display: flex;
+  width: 100vw;
+  margin: 50px 0;
+  padding-left: 98px;
+}
+
+.footer-links {
+  display: flex;
+  width: 100vw;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-family: var(--paragraph-progress-15);
+}
+
+.rating-section p {
+  color: #767676;
+  font-size: 12px;
+}
+
+.rating-section {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quick-links h3,
+.portfolio-section h3,
+.social-connect h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.quick-links-item a,
+.portfolio-items a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.quick-links-item,
+.portfolio-items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.quick-links {
+  width: 141px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.portfolio-section,
+.social-connect {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.copyright-section {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--paragraph-progress-15);
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.copyright-section p {
+  color: #767676;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.upwork-logo-background {
+  width: 91px;
+  height: 40px;
+  border-radius: var(--br-9xs);
+  position: relative;
+  object-fit: cover;
+}
+
+.dribble {
+  width: 149px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dribble-child {
+  width: 73px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+}
+
+.fiverr {
+  width: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.fiverr-logo-background {
+  width: 76px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+
+.linkedin-icon {
+  width: 100px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon {
+  height: 25px;
+  position: relative;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 950px) {
+  .footer-links {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 625px) {
+  .footer-links > div {
+    width: 40vw;
+  }
+  .footer-links {
+    justify-content: space-around;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .footer-links > div {
+    width: 35vw;
+  }
+  .footer-links {
+    gap: 10px;
+  }
+  .footer-logo-icon img {
+    width: 100px;
+    height: 50px;
+  }
+}

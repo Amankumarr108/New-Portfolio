@@ -1,0 +1,29 @@
+<!-- header.html -->
+<header class="navbar">
+  <img class="logo-icon3" loading="lazy" alt="" src="./public/logo@2x.png" />
+    <ul id="sideBar">
+      <img onclick="handleSideBar({isOpen: false})" class="cross-icon" src="./public/cross-icon.svg"/>
+      <li>
+        <a class="menu-item" href="/">Home</a>
+      </li>
+      <li>
+        <a class="menu-item" href="/skills-page.html">Skills</a>
+      </li>
+      <li>
+        <a class="menu-item" href="index.html#">Education</a
+        >
+      </li>
+      <li>
+        <a class="menu-item" href="index.html#project">Projects</a>
+      </li>
+      <li>
+        <a class="menu-item" href="index.html#recommendation">Recommendations</a>
+      </li>
+      <li>
+        <a class="menu-item" href="index.html#contact-form">Contact</a>
+      </li>
+    </ul>
+  <div class="hamburger" onclick="handleSideBar({isOpen: true})">
+    <img src="./public/hamburger-icon.svg"/>
+  </div>
+</header>

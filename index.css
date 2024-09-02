@@ -1,0 +1,353 @@
+.add-skill2 {
+  margin: auto;
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: var(--paragraph-progress-15);
+  color: var(--black);
+  text-align: center;
+  display: inline-block;
+}
+
+.domain-parent p {
+  font-size: 20px;
+  font-family: var(--paragraph-progress-15);
+  font-weight: 500;
+}
+
+.domain {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 125%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: var(--paragraph-progress-15);
+  color: var(--black);
+  text-align: left;
+}
+.domain-input,
+.domain-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.domain-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--background);
+  height: 50px;
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  padding: var(--padding-7xl);
+  box-sizing: border-box;
+  font-family: var(--paragraph-progress-15);
+  font-weight: 500;
+  font-size: var(--h4-18-size);
+  color: rgba(43, 43, 43, 0.5);
+}
+.domain-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 18.6px;
+}
+.skill,
+.skills8 {
+  position: relative;
+  text-transform: capitalize;
+  color: var(--black);
+  text-align: left;
+}
+.skills8 {
+  align-self: stretch;
+  font-size: var(--font-size-3xl);
+  line-height: 27.5px;
+  font-weight: 500;
+  font-family: var(--paragraph-progress-15);
+}
+.skill {
+  font-size: var(--h4-18-size);
+  line-height: 123.6%;
+  display: inline-block;
+  min-width: 36px;
+}
+.i,
+.skill {
+  font-weight: 500;
+  font-family: var(--paragraph-progress-15);
+}
+.proficiency {
+  position: relative;
+  font-size: var(--h4-18-size);
+  line-height: 123.6%;
+  text-transform: capitalize;
+  color: var(--black);
+  text-align: left;
+}
+.skill-item,
+.skills-list {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skill-item {
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.skills-list {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.skill-input-backgrounds,
+.skill-input-fields {
+  height: 50px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--background);
+}
+.skill-input-backgrounds {
+  flex: 1;
+  /* min-width: 395px; */
+  max-width: 100%;
+}
+.skill-input-fields {
+  width: 20%;
+}
+.input-group,
+.inputs,
+.skills-list-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input-group {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-xl);
+}
+.inputs,
+.skills-list-parent {
+  flex-direction: column;
+}
+.inputs {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.skills-list-parent {
+  width: 100%;
+  gap: var(--gap-3xs);
+}
+.add-skill4 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--paragraph-progress-15);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.add-skill3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-20xl);
+  background-color: var(--yellow);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.add-skill3:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.cancel1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--paragraph-progress-15);
+  color: var(--color-tomato);
+  text-align: left;
+  display: inline-block;
+  min-width: 58px;
+}
+.add-skill-parent,
+.cancel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cancel {
+  cursor: pointer;
+  border: 1px solid var(--color-tomato);
+  padding: var(--padding-mini) var(--padding-26xl) var(--padding-mini) 46px;
+  background-color: var(--white);
+  border-radius: var(--br-8xs);
+}
+.cancel:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #e63838;
+  box-sizing: border-box;
+}
+.add-skill-parent {
+  gap: var(--gap-6xl);
+  max-width: 100%;
+}
+.info-details-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base);
+  max-width: 100%;
+}
+
+.info-details-inner,
+.info-details1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.info-details1 {
+  margin: 0;
+  width: 833px;
+  padding: 20px;
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 9999;
+}
+/* .popup-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+  z-index: 9999;
+} */
+
+/* Popup Box */
+.info-details1 {
+  transform: translateY(-50px);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+/* Popup Opened State */
+.popup-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-overlay.active .info-details1 {
+  transform: translateY(0);
+  opacity: 1;
+}
+@media screen and (max-width: 1150px) {
+  .info-details1 {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .info-details1 {
+    height: 85vh;
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 930px) {
+  .add-skill2 {
+    font-size: 35px;
+    line-height: 44px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .info-details1 {
+    width: 95vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .info-details1 {
+    height: 80vh;
+    gap: 0;
+  }
+  .add-skill2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .domain-parent {
+    gap: 11px;
+  }
+  .inputs {
+    gap: 14px;
+  }
+  .info-details-inner {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .cancel {
+    padding: 10px 18px;
+  }
+  .add-skill3 {
+    padding: 12px 20px;
+  }
+  .info-details-inner {
+    padding: 0;
+  }
+  .add-skill2 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .domain-parent {
+    gap: 5px;
+  }
+  .domain-parent p {
+    font-size: 18px;
+  }
+  .skills-list {
+    gap: 8px;
+  }
+  .skills8 {
+    font-size: 18px;
+  }
+  .skill-item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .review-card-container {
+    width: 1256px;
+    overflow-x: auto;
+    flex-direction: column;
+    gap: var(--gap-6xl);
+    max-width: 100%;
+}
+}
+
